@@ -1,2 +1,2 @@
 # TradeBotUI
-Developing web UI for my automatic trading system
+Developing web UI on OpenXava for my automatic trading system
