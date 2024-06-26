@@ -1,0 +1,14 @@
+Generators/Sequences
+
+  //@GeneratedValue(generator="seq_trader_id", strategy = GenerationType.AUTO)
+  //@GeneratedValue(generator="HIBERNATE_SEQUENCE", strategy = GenerationType.AUTO)
+  //@GenericGenerator(name="HIBERNATE_SEQUENCE", strategy = "native")
+  /*@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "gen")
+  @GenericGenerator(name = "gen", strategy = "org.hibernate.id.enhanced.SequenceStyleGenerator",
+      parameters = {@org.hibernate.annotations.Parameter(name = "sequence_name", value = "seq_trader_id")
+      })*/
+
+
+https://stackoverflow.com/questions/43636510/hibernate-doesnt-use-firebird-sequence-but-tries-to-use-a-table-instead
+https://stackoverflow.com/questions/59029519/hibernate-5-id-auto-generation-type-for-oracle-as-sequence-and-mysql-as-identity
+https://stackoverflow.com/questions/414889/how-do-i-generate-ids-with-nhibernate-and-firebird
